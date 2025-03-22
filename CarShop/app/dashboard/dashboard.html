@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        /* Basic page layout */
+        body {
+            display: flex;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Sidebar navigation */
+        aside {
+            width: 250px;
+            height: 100vh;
+            background-color: #f4f4f4;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        aside h2 {
+            margin-bottom: 20px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        aside button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            background-color: #ddd;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        aside button:hover {
+            background-color: #bbb;
+        }
+
+        /* Main content */
+        main {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar Navigation -->
+    <aside>
+        <h2>Car Shop Menu</h2>
+        <button onclick="browseCars()">Browse Cars</button>
+        <button onclick="viewCart()">View Cart</button>
+        <button onclick="loanCalculator()">Loan Calculator</button>
+        <button onclick="hotDeals()">Hot Deals</button>
+        <button onclick="signOut()">Sign Out</button>
+    </aside>
+
+    <!-- Main Dashboard Content -->
+    <main>
+        <h1>Welcome to the Car Shop</h1>
+    </main>
+
+    <!-- JavaScript Functions -->
+    <script>
+        function browseCars() {
+            window.location.href = "browse-cars.html";
+        }
+
+        function viewCart() {
+            window.location.href = "cart.html";
+        }
+
+        function loanCalculator() {
+            window.location.href = "loan-calculator.html";
+        }
+
+        function hotDeals() {
+            window.location.href = "hot-deals.html";
+        }
+
+        function signOut() {
+            alert("Signing out...");
+            window.location.href = "login.html";
+        }
+    </script>
+
+</body>
+</html>
