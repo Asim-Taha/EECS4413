@@ -8,7 +8,7 @@ import {addItem, getItems, removeItem, updateItem} from "../controllers/CartCont
 router.post('/add', addItem); // This request posts an item into the database
 router.get('/get', getItems); // This request requests and gets the cart from the database
 router.delete('/remove/:itemId', removeItem); // This request deletes a specific item based on the random itemId assigned in the database
-router.put('/update', updateItem); // This request updates an item in the database
+router.put('/update/:itemId', updateItem); // This request updates an item in the database
 
 export default router;
 
