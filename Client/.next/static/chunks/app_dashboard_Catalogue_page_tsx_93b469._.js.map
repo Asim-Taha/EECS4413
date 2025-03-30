@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/hulyayasar/Desktop/EECS4413-main/Client/app/dashboard/Catalogue/page.tsx"],"sourcesContent":["'use client';\n\nimport { useEffect, useState } from 'react';\nimport { useSession } from 'next-auth/react';\n\nexport default function CataloguePage() {\n<p>Catalogue page</p>\n}"],"names":[],"mappings":";;;;AAAA;;AAKe,SAAS;kBACxB,6LAAC;kBAAE;;;;;;AACH;KAFwB"}},
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

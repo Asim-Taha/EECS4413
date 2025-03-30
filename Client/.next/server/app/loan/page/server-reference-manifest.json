@@ -1,0 +1,49 @@
+{
+  "node": {
+    "60fbe4f6f5f247095445314e04461090c9451f92ab": {
+      "workers": {
+        "app/loan/page": {
+          "moduleId": "[project]/.next-internal/server/app/loan/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/auth/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/loan/page": "action-browser"
+      }
+    },
+    "007d074400050341ce3d8f035ede901a9439c1b29e": {
+      "workers": {
+        "app/loan/page": {
+          "moduleId": "[project]/.next-internal/server/app/loan/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/auth/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/loan/page": "action-browser"
+      }
+    },
+    "6061cf54f808f6b087ca41e17226922454558043d3": {
+      "workers": {
+        "app/loan/page": {
+          "moduleId": "[project]/.next-internal/server/app/loan/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/auth/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/loan/page": "action-browser"
+      }
+    },
+    "60f359d03337e1e3518845c80e0f243f4425d485ab": {
+      "workers": {
+        "app/loan/page": {
+          "moduleId": "[project]/.next-internal/server/app/loan/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/auth/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/loan/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,82 @@
+{
+  "node": {
+    "40a858c804da641495c5538d4430e682c27095bf37": {
+      "workers": {
+        "app/dashboard/Catalogue/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/Catalogue/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/auth/session.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/auth/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/Catalogue/page": "rsc"
+      }
+    },
+    "009699ba3db00fae66d5cd75f70e38bc04c4c579de": {
+      "workers": {
+        "app/dashboard/Catalogue/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/Catalogue/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/auth/session.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/auth/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/Catalogue/page": "rsc"
+      }
+    },
+    "60fbe4f6f5f247095445314e04461090c9451f92ab": {
+      "workers": {
+        "app/dashboard/Catalogue/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/Catalogue/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/auth/session.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/auth/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/Catalogue/page": "rsc"
+      }
+    },
+    "60f359d03337e1e3518845c80e0f243f4425d485ab": {
+      "workers": {
+        "app/dashboard/Catalogue/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/Catalogue/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/auth/session.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/auth/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/Catalogue/page": "rsc"
+      }
+    },
+    "007d074400050341ce3d8f035ede901a9439c1b29e": {
+      "workers": {
+        "app/dashboard/Catalogue/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/Catalogue/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/auth/session.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/auth/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/Catalogue/page": "rsc"
+      }
+    },
+    "6061cf54f808f6b087ca41e17226922454558043d3": {
+      "workers": {
+        "app/dashboard/Catalogue/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/Catalogue/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/auth/session.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/auth/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/Catalogue/page": "rsc"
+      }
+    },
+    "00db87856254b0e8fd11c134ad93a43836bf2347b4": {
+      "workers": {
+        "app/dashboard/Catalogue/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/Catalogue/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/auth/session.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/auth/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/Catalogue/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}
