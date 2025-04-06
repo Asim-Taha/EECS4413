@@ -26,6 +26,7 @@ export default function LoanCalculatorPage() {
       const res = await fetch('http://localhost:8080/api/loan/calculate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
+        credentials: 'include', // ✅ Include session cookie
         body: JSON.stringify({
           vehiclePrice: parseFloat(formData.vehiclePrice),
           downPayment: parseFloat(formData.downPayment),
@@ -33,6 +34,7 @@ export default function LoanCalculatorPage() {
           loanDurationMonths: parseInt(formData.loanDurationMonths)
         })
       });
+      
 
       if (!res.ok) throw new Error('Loan calculation failed');
       const data = await res.json();
