@@ -18,14 +18,18 @@ This is a full-stack e-commerce web application for browsing, filtering, customi
 3. Install Dependencies
    npm install
 
-4. Create a `.env` File in the Server Directory with:
+5. npm install nodemon
+6. npm install cookie-parser
+
+
+7. Create a `.env` File in the Server Directory with:
    PORT=8080
    SERVER_URL="http://localhost:8080/"
    DB_URI="mongodb+srv://tasim8321:Tahaasim123@cluster0.ukfww.mongodb.net/"
    JWT_SECRET="HHDdPXWXJ45c4Mww+jGp8Y6Djltqd5P7hVQo29hNAkA="
    JWT_EXPIRES_IN="1d"
 
-5. Run the Server
+8. Run the Server
    npm run dev
 
    The backend server will start on http://localhost:8080
